@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>rawish for guest</title>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+	<div class="calc-wrapper">
+		<div class="calc-body">
+			<div class="calc-group">
+				<div class="calc-header">
+					<h3 class="calc-title">
+						Из объёма воды в ящики (<span>36</span> Бутылок.)
+					</h3>
+					<p class="calc-desc">
+						Пишите сколько литров лимонада/камбучи сегодня нужно налить.
+						И он автоматом посчитает сколько ящиков это будет
+					</p>
+				</div>
+				<div class="calc-form" id="first">
+					<input class="calc-input first-calc" type="number" placeholder="Сколько литров?" min="0" value="0">
+					<div class="calc__choose-crate">
+						<div>
+							<label for="bigcrate">
+								Большой ящик
+							</label>
+							<input type="radio" name="chosecrate" id="bigcrate" checked>
+						</div>
+						<div>
+							<label for="smcrate">
+								Маленький ящик
+							</label>
+							<input type="radio" name="chosecrate" id="smcrate">
+						</div>
+						<div>
+							<label for="cartoon">
+								Коробка
+							</label>
+							<input type="radio" name="chosecrate" id="cartoon">
+						</div>
+					</div>
+					<button class="calc-button calc__first-btn" type="button" id="first">
+						Посчитать
+					</button>
+					<div class="calc__result">
+						<p></p>
+					</div>
+				</div>
+			</div>
+			<div class="calc-group">
+				<div class="calc-header">
+					<h4 class="calc-title">
+						Из количества <u>полных</u> ящиков/коробок в объём воды
+					</h4>
+					<p class="calc-desc">
+						Пишите сколько у вас <b>полных</b> ящиков/коробок с бутылками. И вам автоматом подсчитают сколько у
+						вас литров
+					</p>
+				</div>
+				<div class="calc__first-form">
+					<input class="calc-input" type="number" placeholder="Кол-во ящиков/коробок" id="countcrates">
+					<div class="calc__first-choose">
+						<div>
+							<label for="big">
+								Большой ящик
+							</label>
+							<input type="radio" name="choosetype" id="big" checked>
+						</div>
+						<div>
+							<label for="sm">
+								Маленький ящик
+							</label>
+							<input type="radio" name="choosetype" id="sm">
+						</div>
+						<div>
+							<label for="cart">
+								Коробка
+							</label>
+							<input type="radio" name="choosetype" id="cart">
+						</div>
+					</div>
+					<button class="calc-button" id="last">Посчитать</button>
+					<p></p>
+				</div>
+			</div>
+			<div class="calc-group">
+				<h3 class="calc-ps">
+					P.S: Первый калькулятор считает не точно на один или пол ящик/коробку меньше
+				</h3>
+				<p class="calc-text">
+					Сделал калькулятор:
+				</p>
+				<p class="calc-link">
+					<a href="https://instagram.com/__berdikulov_m__">INST</a>
+				</p>
+				<p class="calc-link">
+					<a href="https://vk.com/plamya_natsu">
+						VK
+					</a>
+				</p>
+				<p class="calc-link">
+					<a href="wa.me/79623636288">
+						Whatsapp
+					</a>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<script src="./js/main.js"></script>
+</body>
+
+</html>
